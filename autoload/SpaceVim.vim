@@ -722,7 +722,7 @@ let g:spacevim_info_symbol             = SpaceVim#api#import('messletters').circ
 " >
 "   set -ga terminal-overrides ',*:Ss=\E[%p1%d q:Se=\E[2 q'
 " <
-let g:spacevim_terminal_cursor_shape = 2
+let g:spacevim_terminal_cursor_shape = 1
 ""
 " @section vim_help_language, options-vim_help_language
 " @parentsection options
