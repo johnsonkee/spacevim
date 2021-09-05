@@ -60,6 +60,8 @@ function! SpaceVim#layers#lang#python#config() abort
 
   " If you execute :Pydocstring at no `def`, `class` line.
   " g:pydocstring_enable_comment enable to put comment.txt value.
+  let g:pydocstring_formatter = 'google'
+  let g:pydocstring_doq_path = '/home/wxz/miniconda3/bin/doq' 
   let g:pydocstring_enable_comment = 0
 
   " Disable this option to prevent pydocstring from creating any
